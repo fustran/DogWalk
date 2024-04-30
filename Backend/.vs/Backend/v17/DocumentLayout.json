@@ -1,0 +1,730 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DogWalkPlus\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\paseadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\paseadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|d:\\dogwalkplus\\backend\\models\\interfaces\\tokenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\interfaces\\tokenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\servicios\\tokenserviciopaseador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\servicios\\tokenserviciopaseador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\extensiones\\servicioaplicacionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\extensiones\\servicioaplicacionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\servicios\\tokenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\servicios\\tokenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\interfaces\\tokenserviciopaseador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\interfaces\\tokenserviciopaseador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\dtos\\paseadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\dtos\\paseadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\dtos\\loginpaseadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\dtos\\loginpaseadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\dtos\\registropaseadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\dtos\\registropaseadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\extensiones\\servicioidentidadextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\extensiones\\servicioidentidadextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\errores\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\errores\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\dtos\\registrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\errores\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\errores\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\errores\\apivalidacionerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\errores\\apivalidacionerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\errortestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\errortestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\interfaces\\irepositorio\\iunidadtrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\interfaces\\irepositorio\\iunidadtrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\interfaces\\irepositorio\\ipaseadorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\interfaces\\irepositorio\\ipaseadorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\interfaces\\irepositorio\\iserviciorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\interfaces\\irepositorio\\iserviciorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\interfaces\\irepositorio\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\interfaces\\irepositorio\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\context\\dogwalkpluscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\context\\dogwalkpluscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\dtos\\perrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\dtos\\perrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\preciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\preciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\fotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\fotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\opinioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\opinioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\perrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\perrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|D:\\DogWalkPlus\\Backend\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A03716EF-3D81-4984-81D7-3C336265793F}|Models\\Models.csproj|solutionrelative:models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DogWalkPlus\\Backend\\Models\\Migrations\\20240419173412_MigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Migrations\\20240419173412_MigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|D:\\DogWalkPlus\\Backend\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59591E29-B312-40B4-92F2-7C60C1EDD9A3}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaseadorController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\PaseadorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\PaseadorController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\PaseadorController.cs",
+              "RelativeToolTip": "API\\Controllers\\PaseadorController.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAAAGwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T18:04:19.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenServicio.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\TokenServicio.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\TokenServicio.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\TokenServicio.cs",
+              "RelativeToolTip": "Models\\Interfaces\\TokenServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T15:24:50.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenServicioPaseador.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Servicios\\TokenServicioPaseador.cs",
+              "RelativeDocumentMoniker": "Models\\Servicios\\TokenServicioPaseador.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Servicios\\TokenServicioPaseador.cs",
+              "RelativeToolTip": "Models\\Servicios\\TokenServicioPaseador.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T16:05:44.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServicioAplicacionExtension.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Extensiones\\ServicioAplicacionExtension.cs",
+              "RelativeDocumentMoniker": "API\\Extensiones\\ServicioAplicacionExtension.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Extensiones\\ServicioAplicacionExtension.cs",
+              "RelativeToolTip": "API\\Extensiones\\ServicioAplicacionExtension.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAhwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T19:01:09.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenServicio.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Servicios\\TokenServicio.cs",
+              "RelativeDocumentMoniker": "Models\\Servicios\\TokenServicio.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Servicios\\TokenServicio.cs",
+              "RelativeToolTip": "Models\\Servicios\\TokenServicio.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T15:26:07.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwBYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T17:39:10.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenServicioPaseador.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\TokenServicioPaseador.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\TokenServicioPaseador.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\TokenServicioPaseador.cs",
+              "RelativeToolTip": "Models\\Interfaces\\TokenServicioPaseador.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T16:09:34.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaseadorDto.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\PaseadorDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\PaseadorDto.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\PaseadorDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\PaseadorDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T15:50:02.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServicioController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\ServicioController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ServicioController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\ServicioController.cs",
+              "RelativeToolTip": "API\\Controllers\\ServicioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T07:50:35.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPaseadorDto.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\LoginPaseadorDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\LoginPaseadorDto.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\LoginPaseadorDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\LoginPaseadorDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:53:32.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:44:07.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegistroPaseadorDto.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\RegistroPaseadorDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RegistroPaseadorDto.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\RegistroPaseadorDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\RegistroPaseadorDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:48:20.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServicioIdentidadExtension.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Extensiones\\ServicioIdentidadExtension.cs",
+              "RelativeDocumentMoniker": "API\\Extensiones\\ServicioIdentidadExtension.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Extensiones\\ServicioIdentidadExtension.cs",
+              "RelativeToolTip": "API\\Extensiones\\ServicioIdentidadExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T19:08:38.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T18:39:43.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApiErrorResponse.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Errores\\ApiErrorResponse.cs",
+              "RelativeDocumentMoniker": "API\\Errores\\ApiErrorResponse.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Errores\\ApiErrorResponse.cs",
+              "RelativeToolTip": "API\\Errores\\ApiErrorResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:22:09.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\UsuarioDto.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\UsuarioDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\UsuarioDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T15:50:02.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegistroDto.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\RegistroDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RegistroDto.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\RegistroDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\RegistroDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:14:53.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Errores\\ApiException.cs",
+              "RelativeDocumentMoniker": "API\\Errores\\ApiException.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Errores\\ApiException.cs",
+              "RelativeToolTip": "API\\Errores\\ApiException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:13:25.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApiValidacionErrorResponse.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Errores\\ApiValidacionErrorResponse.cs",
+              "RelativeDocumentMoniker": "API\\Errores\\ApiValidacionErrorResponse.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Errores\\ApiValidacionErrorResponse.cs",
+              "RelativeToolTip": "API\\Errores\\ApiValidacionErrorResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:24:02.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorTestController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\ErrorTestController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ErrorTestController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\ErrorTestController.cs",
+              "RelativeToolTip": "API\\Controllers\\ErrorTestController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwCkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T18:46:18.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ErrorController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "API\\Controllers\\ErrorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:57:29.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRepositorioGenerico.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\IRepositorio\\IRepositorioGenerico.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IRepositorio\\IRepositorioGenerico.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\IRepositorio\\IRepositorioGenerico.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IRepositorio\\IRepositorioGenerico.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:17:30.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUnidadTrabajo.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\IRepositorio\\IUnidadTrabajo.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IRepositorio\\IUnidadTrabajo.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\IRepositorio\\IUnidadTrabajo.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IRepositorio\\IUnidadTrabajo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:22:06.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IServicioRepositorio.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\IRepositorio\\IServicioRepositorio.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IRepositorio\\IServicioRepositorio.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\IRepositorio\\IServicioRepositorio.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IRepositorio\\IServicioRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:22:58.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPaseadorRepositorio.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\IRepositorio\\IPaseadorRepositorio.cs",
+              "RelativeDocumentMoniker": "Models\\Interfaces\\IRepositorio\\IPaseadorRepositorio.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Interfaces\\IRepositorio\\IPaseadorRepositorio.cs",
+              "RelativeToolTip": "Models\\Interfaces\\IRepositorio\\IPaseadorRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:25:25.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BaseApiController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "API\\Controllers\\BaseApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:50:19.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DogWalkPlusContext.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Context\\DogWalkPlusContext.cs",
+              "RelativeDocumentMoniker": "Models\\Context\\DogWalkPlusContext.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Context\\DogWalkPlusContext.cs",
+              "RelativeToolTip": "Models\\Context\\DogWalkPlusContext.cs",
+              "ViewState": "AQIAANsAAAAAAAAAAAAQwCgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:55:39.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PerroDto.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\PerroDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\PerroDto.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\PerroDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\PerroDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T15:03:59.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Models\\Usuario.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:39:46.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PrecioController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\PrecioController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\PrecioController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\PrecioController.cs",
+              "RelativeToolTip": "API\\Controllers\\PrecioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:28:16.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RankingController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\RankingController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\RankingController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\RankingController.cs",
+              "RelativeToolTip": "API\\Controllers\\RankingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:17:12.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "API\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:16:08.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-19T16:51:35.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T13:58:45.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FotoController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\FotoController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\FotoController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\FotoController.cs",
+              "RelativeToolTip": "API\\Controllers\\FotoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:38:37.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HorarioController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\HorarioController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\HorarioController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\HorarioController.cs",
+              "RelativeToolTip": "API\\Controllers\\HorarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:50:39.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OpinionController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\OpinionController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\OpinionController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\OpinionController.cs",
+              "RelativeToolTip": "API\\Controllers\\OpinionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:34:20.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PerroController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\PerroController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\PerroController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\PerroController.cs",
+              "RelativeToolTip": "API\\Controllers\\PerroController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:46:09.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ReservaController.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\ReservaController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ReservaController.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\Controllers\\ReservaController.cs",
+              "RelativeToolTip": "API\\Controllers\\ReservaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:11:13.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ApiResponse.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "Models\\DTOs\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T16:09:54.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Models.csproj",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Models.csproj",
+              "RelativeDocumentMoniker": "Models\\Models.csproj",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Models.csproj",
+              "RelativeToolTip": "Models\\Models.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-19T16:47:04.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240419173412_MigracionInicial.cs",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\Models\\Migrations\\20240419173412_MigracionInicial.cs",
+              "RelativeDocumentMoniker": "Models\\Migrations\\20240419173412_MigracionInicial.cs",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\Models\\Migrations\\20240419173412_MigracionInicial.cs",
+              "RelativeToolTip": "Models\\Migrations\\20240419173412_MigracionInicial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T17:34:12.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "API.csproj",
+              "DocumentMoniker": "D:\\DogWalkPlus\\Backend\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "D:\\DogWalkPlus\\Backend\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-19T16:46:14.284Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
