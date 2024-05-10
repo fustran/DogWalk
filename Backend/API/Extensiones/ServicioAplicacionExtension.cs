@@ -6,6 +6,11 @@ using Models.Interfaces;
 using Models.Servicios;
 using API.Errores;
 using Microsoft.Extensions.DependencyInjection;
+using Models.Interfaces.IRepositorio;
+using Models.Repositorio;
+using Utilidades;
+using BLL.Servicios.Interfaces;
+using BLL.Servicios;
 
 namespace API.Extensiones
 {
@@ -63,6 +68,10 @@ namespace API.Extensiones
                     return new BadRequestObjectResult(errorResponse);
                 };
             });
+            services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();
+            services.AddAutoMapper(typeof(MappingProfile));
+
+            services.AddScoped<IServicio, Servicio>();
 
             return services;
         }

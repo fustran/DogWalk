@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Models.Context;
 using Models.Models;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using Models.DTOs;
 
 
 namespace API.Controllers
@@ -37,14 +39,36 @@ namespace API.Controllers
             return reserva;
         }
 
-        [HttpPost("reservas")]
-        public async Task<ActionResult<Reserva>> PostReserva(Reserva reserva)
+        [HttpPost]
+        public async Task<ActionResult<Reserva>> PostReserva(ReservaDTO reservaDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var reserva = MapToReserva(reservaDto);
+
             _context.Reservas.Add(reserva);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetReserva", new { id = reserva.IdReserva }, reserva);
         }
+
+
+        private Reserva MapToReserva(ReservaDTO reservaDto)
+        {
+            return new Reserva
+            {
+                IdUsuario = reservaDto.IdUsuario,
+                IdPaseador = reservaDto.IdPaseador,
+                IdServicio = reservaDto.IdServicio,
+                IdPerro = reservaDto.IdPerro,
+                IdHorario = reservaDto.IdHorario,
+                FechaReserva = reservaDto.FechaReserva,
+            };
+        }
+
 
         [HttpPut("reservas/{id}")]
         public async Task<IActionResult> PutReserva(int id, Reserva reserva)

@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using Models.Context;
 using Models.DTOs;
@@ -23,7 +22,6 @@ namespace API.Controllers
             _tokenServicio = tokenServicio;
         }
 
-        [Authorize]
         [HttpGet("usuarios")] // GET: api/usuarios Obtenemos todos los usuarios
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
         {
@@ -44,15 +42,23 @@ namespace API.Controllers
             return usuario;
         }
 
-        [HttpPut("usuarios/{id}")] // PUT: api/usuarios/5 Actualizamos un usuario con un id específico
-        public async Task<IActionResult> PutUsuario(int idUsuario, Usuario usuario)
+        [HttpPut("usuarios/{email}")]
+        public async Task<IActionResult> PutUsuario(string email, ActUsuarioDto usuarioDto)
         {
-            if (idUsuario != usuario.IdUsuario)
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == email);
+
+            if (usuario == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            _context.Entry(usuario).State = EntityState.Modified;
+            usuario.DniUsuario = usuarioDto.DniUsuario;
+            usuario.Nombre = usuarioDto.Nombre;
+            usuario.Apellido = usuarioDto.Apellido;
+            usuario.Dirección = usuarioDto.Dirección;
+            usuario.Email = usuarioDto.Email;
+            usuario.Password = usuarioDto.Password;
+            usuario.TelefonoUsuario = usuarioDto.TelefonoUsuario;
 
             try
             {
@@ -60,14 +66,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UsuarioExists(idUsuario))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                throw;
             }
 
             return NoContent();
@@ -129,6 +128,56 @@ namespace API.Controllers
             };
         }
 
+        [HttpPost("recuperar-contrasenya")]
+        public async Task<ActionResult> RecuperarContraseña(RecuperarDto recuperarDto)
+        {
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == recuperarDto.Email);
+
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            // Genera un token de restablecimiento de contraseña.
+            var token = GenerarTokenDeRestablecimientoDeContraseña();
+
+            // Crea un enlace para restablecer la contraseña.
+            var enlace = $"http://localhost:4200/recuperar?token={token}";
+
+            // Envía un correo electrónico al usuario con el enlace para restablecer la contraseña.
+            await EnviarCorreoElectronico(usuario.Email, "Restablecer contraseña", $"Haz clic en este enlace para restablecer tu contraseña: {enlace}");
+
+            return Ok();
+        }
+
+        private async Task EnviarCorreoElectronico(string email, string asunto, string mensaje)
+        {
+            using (var client = new System.Net.Mail.SmtpClient("smtp.gmail.com", 587)) // 587 es el puerto para conexiones TLS/STARTTLS
+            {
+                client.EnableSsl = true; // Habilita SSL
+                client.UseDefaultCredentials = false; // Permite definir las credenciales manualmente
+                client.Credentials = new System.Net.NetworkCredential("dogwalkapp207@gmail.com", "2ZE868Fru"); // Define las credenciales
+
+                var correo = new System.Net.Mail.MailMessage("dogwalkapp207@gmail.com", email, asunto, mensaje);
+                await client.SendMailAsync(correo);
+            }
+        }
+
+
+
+
+
+
+        private string GenerarTokenDeRestablecimientoDeContraseña()
+        {
+            using (var randomNumberGenerator = System.Security.Cryptography.RandomNumberGenerator.Create())
+            {
+                var randomNumber = new byte[20]; // 20 bytes will give us a 40 characters long token
+                randomNumberGenerator.GetBytes(randomNumber);
+                return BitConverter.ToString(randomNumber).Replace("-", "");
+            }
+        }
+
 
 
         [HttpDelete("usuarios/{id}")]
@@ -146,9 +195,6 @@ namespace API.Controllers
             return NoContent();
         }
 
-        private bool UsuarioExists(int idUsuario) // Metodo para verificar si un usuario existe
-        {
-            return _context.Usuarios.Any(e => e.IdUsuario == idUsuario);
-        }
+       
     }
 }

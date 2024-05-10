@@ -8,7 +8,7 @@ namespace Models.DTOs
 {
     public class PaseadorDto
     {
-        public string Email { get; set; }
-        public string Token { get; set; }
+        public string EmailPaseador { get; set; }
+        public string TokenPaseador { get; set; }
     }
 }

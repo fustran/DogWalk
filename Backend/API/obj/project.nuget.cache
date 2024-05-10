@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2j/GFZyVvRUiH/TqcdVBRrTSeKLWLWhDTYKAx66Xu3ZZkKYYiW2Gr/2bS/GvtIrZ0QK1OpxsbzHJMFZ0HyU9tg==",
+  "dgSpecHash": "URXpDFcNA/5r8YJzFm1mYsl01kebL3+BiMGYB8b8q2WhyDmJ9PNYcj0uz0X1/GX4my2Bd5WcNQJAHP0XXUgJ/A==",
   "success": true,
   "projectFilePath": "D:\\DogWalkPlus\\Backend\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alber\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

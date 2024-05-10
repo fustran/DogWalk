@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Models.Context;
 using Models.Models;
 using Microsoft.EntityFrameworkCore;
+using Models.DTOs;
 
 
 namespace API.Controllers
@@ -19,23 +20,24 @@ namespace API.Controllers
         }
 
         [HttpGet("rankings")]
-        public async Task<ActionResult<IEnumerable<Ranking>>> GetRankings()
+        public async Task<ActionResult<IEnumerable<RankingDto>>> GetRankings()
         {
-            return await _context.Rankings.ToListAsync();
-        }
+            var rankings = await _context.Rankings
+                .Include(r => r.IdPaseadorNavigation)
+                .ToListAsync();
 
-        [HttpGet("rankings/{idUsuario}/{idPaseador}")]
-        public async Task<ActionResult<Ranking>> GetRanking(int idUsuario, int idPaseador)
-        {
-            var ranking = await _context.Rankings.FirstOrDefaultAsync(r => r.IdUsuario == idUsuario && r.IdPaseador == idPaseador);
-
-            if (ranking == null)
+            var rankingDtos = rankings.Select(r => new RankingDto
             {
-                return NotFound();
-            }
+                NombrePaseador = r.IdPaseadorNavigation.Nombre, // Asume que tu entidad Paseador tiene una propiedad Nombre
+                Comentario = r.Comentario,
+                Valoracion = r.Valoracion
+            }).ToList();
 
-            return ranking;
+            return rankingDtos;
         }
+
+
+       
         /*Este método filtra los rankings por valoración pero me da error la API
         [HttpGet("rankings")] 
         public async Task<ActionResult<IEnumerable<Ranking>>> GetRankings(int? valoracion = null)

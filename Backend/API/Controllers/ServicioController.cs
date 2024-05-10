@@ -1,8 +1,9 @@
-﻿
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Models.Context;
+using Models.DTOs;
+using Models.Interfaces;
 using Models.Models;
 
 namespace API.Controllers
@@ -18,16 +19,16 @@ namespace API.Controllers
             _context = context;
         }
 
-        [HttpGet("servicios")] //GET api/servicios Obtenemos todos los servicios
+        [HttpGet("servicios")]
         public async Task<ActionResult<IEnumerable<Servicio>>> GetServicios()
         {
             return await _context.Servicios.ToListAsync();
         }
 
-        [HttpGet("servicios/{id}")] //GET api/servicios/5 Obtenemos un servicio con un id específico
-        public async Task<ActionResult<Servicio>> GetServicio(int idServicio)
+        [HttpGet("servicios/{nombre_servicio}")] //GET api/servicios/5 Obtenemos un servicio con un id específico
+        public async Task<ActionResult<Servicio>> GetServicio(string nombreServicio)
         {
-            var servicio = await _context.Servicios.FindAsync(idServicio);
+            var servicio = await _context.Servicios.FindAsync(nombreServicio);
 
             if (servicio == null)
             {
@@ -43,13 +44,13 @@ namespace API.Controllers
             _context.Servicios.Add(servicio);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetServicio", new { id = servicio.IdServicio }, servicio);
+            return CreatedAtAction("GetServicio", new { nombre = servicio.NombreServicio }, servicio);
         }
 
-        [HttpPut("servicios/{id}")] //PUT api/servicios/5 Actualizamos un servicio con un id específico
-        public async Task<IActionResult> PutServicio(int idServicio, Servicio servicio)
+        [HttpPut("servicios/{nombre_servicio}")] //PUT api/servicios/ Actualizamos un servicio con un nombre específico
+        public async Task<IActionResult> PutServicio(string nombreServicio, string descripcionServicio, Servicio servicio)
         {
-            if (idServicio != servicio.IdServicio)
+            if (nombreServicio != servicio.NombreServicio && descripcionServicio != servicio.DescripcionServicio)
             {
                 return BadRequest();
             }
@@ -62,7 +63,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ServicioExists(idServicio))
+                if (!ServicioExists(nombreServicio, descripcionServicio))
                 {
                     return NotFound();
                 }
@@ -75,10 +76,15 @@ namespace API.Controllers
             return NoContent();
         }
 
-        [HttpDelete("servicios/{id}")] //DELETE api/servicios/5 Eliminamos un servicio con un id específico
-        public async Task<IActionResult> DeleteServicio(int idServicio)
+        private bool ServicioExists(string nombreServicio, string descripcionServicio)
         {
-            var servicio = await _context.Servicios.FindAsync(idServicio);
+            return _context.Servicios.Any(e => e.NombreServicio == nombreServicio && e.DescripcionServicio == descripcionServicio);
+        }
+
+        [HttpDelete("servicios/{nombre_servicio}")] //DELETE api/servicios/ Eliminamos un servicio con un nombre específico
+        public async Task<IActionResult> DeleteServicio(string nombreServicio)
+        {
+            var servicio = await _context.Servicios.FindAsync(nombreServicio);
             if (servicio == null)
             {
                 return NotFound();
@@ -88,11 +94,6 @@ namespace API.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
-        }
-
-        private bool ServicioExists(int idServicio)
-        {
-            return _context.Servicios.Any(e => e.IdServicio == idServicio);
         }
     }
 }

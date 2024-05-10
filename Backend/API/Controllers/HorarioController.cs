@@ -45,15 +45,21 @@ namespace API.Controllers
             return CreatedAtAction("GetHorario", new { id = horario.IdHorario }, horario);
         }
 
-        [HttpPut("horarios/{id}")]
-        public async Task<IActionResult> PutHorario(int id, Horario horario)
+        [HttpPut("horarios/{id}/reservar")]
+        public async Task<IActionResult> Reservar(int id)
         {
-            if (id != horario.IdHorario)
+            var horario = await _context.Horarios.FindAsync(id);
+            if (horario == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            _context.Entry(horario).State = EntityState.Modified;
+            if (horario.Disponibilidad == "Reservado")
+            {
+                return BadRequest("Este horario ya está reservado.");
+            }
+
+            horario.Disponibilidad = "Reservado";
 
             try
             {
@@ -73,6 +79,8 @@ namespace API.Controllers
 
             return NoContent();
         }
+
+
 
         [HttpDelete("horarios/{id}")]
         public async Task<IActionResult> DeleteHorario(int id)

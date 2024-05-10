@@ -24,12 +24,30 @@ namespace API.Controllers
             _tokenServicioPaseador = tokenServicioPaseador;
         }
 
-        [Authorize]
         [HttpGet("paseadores")]
         public async Task<ActionResult<IEnumerable<Paseador>>> GetPaseadores()
         {
             return await _context.Paseadors.ToListAsync();
         }
+
+        [HttpGet("paseadores{direccion}")]
+        public async Task<ActionResult<IEnumerable<Paseador>>> GetPaseadoresDireccion(string direccion)
+        {
+            return await _context.Paseadors.Where(x => x.Dirección == direccion).ToListAsync();
+        }
+
+        [HttpGet("paseadores/nombres")]
+        public async Task<ActionResult<IEnumerable<string>>> GetNombresPaseadores()
+        {
+            return await _context.Paseadors.Select(p => p.Nombre).ToListAsync();
+        }
+
+        [HttpGet("paseadores/ubicaciones")]
+        public async Task<ActionResult<IEnumerable<object>>> GetUbicacionesPaseadores()
+        {
+            return await _context.Paseadors.Select(p => new { p.Latitud, p.Longitud }).ToListAsync();
+        }
+
 
         [HttpGet("paseadores/{id}")]
         public async Task<ActionResult<Paseador>> GetPaseador(int idPaseador)
@@ -97,8 +115,8 @@ namespace API.Controllers
 
             return new PaseadorDto
             {
-                Email = paseador.Email,
-                Token = _tokenServicioPaseador.CrearTokens(paseador)
+                EmailPaseador = paseador.Email,
+                TokenPaseador = _tokenServicioPaseador.CrearTokens(paseador)
             };
         }
 
@@ -108,14 +126,14 @@ namespace API.Controllers
             return await _context.Paseadors.AnyAsync(x => x.DniPaseador == dniPaseador);
         }
 
-        [HttpPost("login paseadores")]
+        [HttpPost("login_paseadores")]
         public async Task<ActionResult<PaseadorDto>> Login(LoginPaseadorDto loginPaseadorDto)
         {
             var paseador = await _context.Paseadors.FirstOrDefaultAsync(x => x.Email == loginPaseadorDto.Email && x.Password == loginPaseadorDto.Password);
 
             if (paseador == null)
             {
-                return Unauthorized("Usuario no existe");
+                return Unauthorized("Paseador no existe");
             }
 
             if (paseador.Password != loginPaseadorDto.Password)
@@ -125,8 +143,8 @@ namespace API.Controllers
 
             return new PaseadorDto
             {
-                Email = paseador.Email,
-                Token = _tokenServicioPaseador.CrearTokens(paseador)
+                EmailPaseador = paseador.Email,
+                TokenPaseador = _tokenServicioPaseador.CrearTokens(paseador)
             };
         }
 

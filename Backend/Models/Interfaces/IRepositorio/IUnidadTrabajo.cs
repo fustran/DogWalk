@@ -7,9 +7,10 @@ using Models.Models;
 
 namespace Models.Interfaces.IRepositorio
 {
-    public interface IUnidadTrabajo :IDisposable // 
+    public interface IUnidadTrabajo :IDisposable //Mecanismo para liberar memoria del sistema
     {
         IServicioRepositorio Servicio { get; }
-        IPaseadorRepositorio Paseador { get; }
+
+        Task Guardar();
     }
 }
